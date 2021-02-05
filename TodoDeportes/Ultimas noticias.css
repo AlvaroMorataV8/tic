@@ -1,0 +1,70 @@
+
+nav>a{
+    background-color:white;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 1.213em;
+}
+h1{
+    text-align: center;
+    width: auto;
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 3em;
+    box-shadow: 5px -5px 5px #96eff7;
+    text-shadow: 2px 2px 3px white;
+}
+.videos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    grid-gap: 10px;
+}
+
+.videos>iframe{
+    width: 100%;
+    height: 300px;
+}
+.noticias{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 30px;
+}
+
+section{
+    width: 80%;
+    background-color: rgba(232, 239, 179, 0.42);
+    color:#183c3c;
+    padding:25px;
+    float:left;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+h3{
+    color: red;
+}
+body{
+    background-color: whitesmoke;
+}
+ol{
+    width: 12%;
+    background-image: linear-gradient(rgba(239, 58, 58, 0.65), rgba(240, 240, 57, 0.66),rgba(239, 58, 58, 0.65));
+    margin-left: 50px;      
+}
+header>img{
+    width: 10%;
+    position: absolute;
+    right: 51px;
+    top: 120px;
+}
+.clasificacion{
+    display: flex;
+}
+.clasificacion ol{
+    width: 100%;
+}
+.clasificacion div{
+    margin: auto;
+}

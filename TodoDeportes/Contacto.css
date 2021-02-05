@@ -1,0 +1,69 @@
+/* Alvaro y Benigno
+   Enero 2021
+   Página Web
+*/
+
+h1{
+    text-align: center;
+    width: auto;
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 3em;
+    box-shadow: 5px -5px 5px #96eff7;
+    text-shadow: 2px 2px 3px white;
+    background-color: bisque
+}
+
+.formulario{
+    background-color: white;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.fm{
+    display: flex;
+    flex-direction: column;
+}
+
+.fm > *{
+    margin:38px 0px 0px 10px;
+    padding:15px;
+    border-radius: 10px;       
+}
+section{
+    width: 25%;
+    background-color: white;
+    color:black;
+    padding:15px;
+    text-align: center;
+    margin-left: 490px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(red,yellow,red)
+}
+
+img{
+    width: 10%;
+    position: absolute;
+    right: 25px;
+    top: 110px;
+}
+nav>a{
+    background-color:white;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 1.213em;
+    font-style: italic;
+    font-weight: 479;
+    font-family: Verdana; 
+    
+}
+body{
+    background-color: rgba(240, 207, 162, 0.49)
+}
