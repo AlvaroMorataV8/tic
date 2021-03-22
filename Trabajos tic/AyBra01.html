@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Realidad aumentada 01</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="aframe-particle-system-component.min.js"></script>
+</head>
+<body>
+   <a-scene>
+   <a-camera fov="80" position="0 2 3"></a-camera>
+   
+   <a-box position="1 1 -4" rotation="0 0 0" material="opacity: 1;" src="./img/bronce.jpg" scale="1 1 0.5"  width="0.5" height="1.5"></a-box>
+   
+   <a-box position="-0.5 1 -4" rotation="0 0 0" material="opacity: 1;" src="./img/bronce.jpg" scale="1 1 0.5"  width="0.5" height="1.5"></a-box>
+   
+   <a-box position="1 1 -6" rotation="0 0 0" material="opacity: 1;" src="./img/bronce.jpg" scale="1 1 0.5"  width="0.5" height="1.5"></a-box>
+   
+   <a-box position="-0.5 1 -6" rotation="0 0 0" material="opacity: 1;" src="./img/bronce.jpg" scale="1 1 0.5"  width="0.5" height="1.5"></a-box>
+   
+   <a-box position="0.2 1.85 -5" rotation="0 0 0" material="opacity: 1;" src="./img/bronce.jpg" scale="2 0.8 3" width="1.15" height="0.5"></a-box>
+   
+   <a-box position="0 3.25 -9" rotation="0 0 0" material="opacity: 1;" scale="2 1 2"  width="1.5" height="1.5" color="#000000"></a-box>
+    
+    
+    <a-plane 
+    position="0 0 -6" rotation="-90 0 0" src="./img/marmol.jpg" 
+    repeat="2 2 2"
+    width="9" height="7" color="#ffffff">
+    </a-plane>    
+    <a-plane 
+    position="0 2 -9" rotation="0 0 0" src="./img/madera.jpg" repeat="2 2 2"width="9" height="7" color="#532a11">
+    </a-plane>   
+    <a-entity position="0 5 -15" particle-system="preset:dust; velocityValue:1 1 0; particleCount:1000"></a-entity><a-sky color="black"></a-sky>
+    </a-scene>
+            
+</body>
+</html>
